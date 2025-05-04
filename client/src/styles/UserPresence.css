@@ -1,0 +1,42 @@
+.user-presence {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--tertiary-bg);
+  border-radius: 30px;
+  padding: 6px 12px;
+  margin-right: 12px;
+}
+
+.users-list {
+  display: flex;
+  margin-right: 4px;
+}
+
+.user-avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: -8px;
+  border: 2px solid var(--tertiary-bg);
+  transition: transform 0.2s ease;
+}
+
+.user-avatar:hover {
+  transform: translateY(-4px);
+}
+
+.users-count {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--secondary-text);
+  white-space: nowrap;
+  padding-left: 4px;
+}
+
